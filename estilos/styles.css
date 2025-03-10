@@ -50,6 +50,7 @@ header{
 #input_login input{
     padding: 10px;
     margin-top: 5%;
+    border-radius: 16px;
     width: 80%;
     font-size: 15px;
     background-color: #ffffff;
