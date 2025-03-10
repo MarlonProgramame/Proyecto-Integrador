@@ -56,6 +56,15 @@ header{
     background-color: #ffffff;
 }
 
+#input_login input:hover{
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 16px;
+    width: 80%;
+    font-size: 15px;
+    background-color: #e2e2e2;
+}
+
 #boton_login{
     text-align: center;
 }
