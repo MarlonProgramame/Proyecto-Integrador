@@ -1,33 +1,55 @@
+
+<!--LOGIN-->
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Conexión a CSS-->
         <link rel="stylesheet" href="estilos/styles.css">
-        <title>***NOMBRE PROYECTO***</title>
+        <!--Pestaña-->
+        <title>LOGIN TECHNOLOGY IN VULNERABLE HEARTS</title>
     </head>
     <!--ENCABEZADO-->
     <header>
-        <!--Imagen de San Mateo Encabezado.-->
-        <img src="imagenes/logo_san_mateo.png" alt="Logo San Mateo">
+        
     </header>
     <!--CUERPO-->
     <body>
         <!--Codigo principal***Jennifer Villa***-->
         <main>
-            <h1>INICIO DE SESION</h1>
-            <h3>USUARIO</h3>
-            <input type="text" id="usuario" title="Usuario" required>
-            <h3>CONTRASEÑA</h3>
-            <input type="password" id="contraseña" title="Contraseña" required>
-            <br>
-            <br>
-            <button type="button" id="boton_ini_ses">Iniciar Sesion</button>
+            <section id="cont_ini_sesion">
+                <img src="imagenes/logo.jpg" alt="IMAGEN TECHNOLOGY IN VULNERABLE HEARTS">
+                <section id="ini_sesion">
+                    <!--Titulo Inicio de Sesion-->
+                    <h1>INICIO DE SESION</h1>
+                    <section id="input_login">
+                        <!--Campo de Usuario-->
+                        <input type="text" title="Usuario" placeholder="Email" required>
+                        <br>
+                        <!--Campo de Contraseña-->
+                        <input type="password" title="Contraseña" placeholder="Contraseña" required>
+                        <br>
+                    </section>
+                    <section id="boton_login">
+                        <!--Boton Iniciar Sesion-->
+                        <button type="submit" id="boton_ini_ses">Iniciar Sesion</button>
+                        <br>
+                    </section>
+                    <section id="contenedor_crear_cuenta">
+                        <!--Parrafo para crear cuenta nueva.-->
+                        <p>¿No tienes cuenta? Crea una <a href="registro.html" target="_blank">AQUI</a></p>
+                    </section>
+                </section>
+            </section>
         </main>
     </body> 
     <!--PIE DE PAGINA-->
     <footer>
-        <!--Pie de Pagina Nombres de Integrantes.-->
-        <p>Proyecto Integrador Fundacion Universitaria San Mateo 2025<br><br>Integrantes <br><br>VILLA FLOREZ JENNIFER ALEJANDRA <br>AMARILLO LOZANO ANDRES MATEO <br>ARISTIZABAL MONSALVE MARLON STEVEN</p>
+            <!--Pie de Pagina Nombres de Integrantes.-->
+            <p>Proyecto Integrador Fundacion Universitaria San Mateo 2025<br> <br>Programa de Ingenieria de Sistemas V Semestre<br><br>Integrantes <br><br>VILLA FLOREZ JENNIFER ALEJANDRA <br>AMARILLO LOZANO ANDRES MATEO <br>ARISTIZABAL MONSALVE MARLON STEVEN</p>
+            <!--Imagen de San Mateo Encabezado.-->
+            <img src="imagenes/logo_san_mateo.png" alt="Logo San Mateo">
     </footer>
 </html>
