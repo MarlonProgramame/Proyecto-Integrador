@@ -34,7 +34,7 @@ header{
 
 #ini_sesion h1{
     text-align: center;
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 48px;
 }
 
@@ -106,7 +106,7 @@ header{
     transform: translateY(4px);
 }
 
-#contenedor_crear_cuenta{
+#contenedor_recuperar_cuenta{
     text-align: center;
 }
 
