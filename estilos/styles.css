@@ -34,7 +34,7 @@ header{
 
 #ini_sesion h1{
     text-align: center;
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 48px;
 }
 
@@ -50,9 +50,19 @@ header{
 #input_login input{
     padding: 10px;
     margin-top: 5%;
+    border-radius: 16px;
     width: 80%;
     font-size: 15px;
     background-color: #ffffff;
+}
+
+#input_login input:hover{
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 16px;
+    width: 80%;
+    font-size: 15px;
+    background-color: #e2e2e2;
 }
 
 #boton_login{
@@ -96,7 +106,7 @@ header{
     transform: translateY(4px);
 }
 
-#contenedor_crear_cuenta{
+#contenedor_recuperar_cuenta{
     text-align: center;
 }
 
@@ -105,8 +115,7 @@ footer{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px;
     text-align: center;
     border: solid;
     align-items: center; /*CENTRO LA IMAGEN Y PARRAFO EN Y SAN MATEO EN LA MITAD USANDO DISPLAY FLEX*/
