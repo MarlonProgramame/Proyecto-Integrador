@@ -16,9 +16,29 @@ body{
 
 /*ENCABEZADO*/
 header{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 10px;
-    margin: auto;
     text-align: center;
+    align-items: center; /*CENTRO LA IMAGEN Y PARRAFO EN Y SAN MATEO EN LA MITAD USANDO DISPLAY FLEX*/
+    justify-content: center; /*CENTRO LA IMAGEN Y PARRAFO EN X SAN MATEO EN LA MITAD USANDO DISPLAY FLEX*/
+    background: #d9d9d9;
+    
+}
+
+header p{
+    padding: 10px;
+    width: 50%;
+    background: #d9d9d9;
+}
+
+header img{
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    background: #d9d9d9;
 }
 
 #cont_ini_sesion{
@@ -26,6 +46,7 @@ header{
     margin-left: 10%;
     margin-right: 10%;
     background-color: #d9d9d9;
+    border: solid #000000;
 }
 
 #cont_ini_sesion img{
@@ -112,30 +133,4 @@ header{
 
 #contenedor_recuperar_cuenta{
     text-align: center;
-}
-
-footer{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    padding: 10px;
-    text-align: center;
-    align-items: center; /*CENTRO LA IMAGEN Y PARRAFO EN Y SAN MATEO EN LA MITAD USANDO DISPLAY FLEX*/
-    justify-content: center; /*CENTRO LA IMAGEN Y PARRAFO EN X SAN MATEO EN LA MITAD USANDO DISPLAY FLEX*/
-    background: #919191;
-}
-
-footer p{
-    padding: 10px;
-    width: 50%;
-    background: #919191;
-}
-
-footer img{
-    padding: 10px;
-    width: 50%;
-    height: 100%;
-    padding-right: 50px;
-    background: #919191;
 }
