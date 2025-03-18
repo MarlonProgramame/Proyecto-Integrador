@@ -7,9 +7,13 @@
     padding: 0;
     margin: 0;
     /*COLOR DE FONDO.*/
-    background-color: #d9d9d9;
     font-family: Poppins;
 }
+
+body{
+    background-color:#ffffff
+}
+
 /*ENCABEZADO*/
 header{
     padding: 10px;
@@ -21,7 +25,7 @@ header{
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
-    border: 3px solid #000000;
+    background-color: #d9d9d9;
 }
 
 #cont_ini_sesion img{
@@ -117,14 +121,15 @@ footer{
     margin-bottom: 2%;
     padding: 10px;
     text-align: center;
-    border: solid;
     align-items: center; /*CENTRO LA IMAGEN Y PARRAFO EN Y SAN MATEO EN LA MITAD USANDO DISPLAY FLEX*/
     justify-content: center; /*CENTRO LA IMAGEN Y PARRAFO EN X SAN MATEO EN LA MITAD USANDO DISPLAY FLEX*/
+    background: #919191;
 }
 
 footer p{
     padding: 10px;
     width: 50%;
+    background: #919191;
 }
 
 footer img{
@@ -132,4 +137,5 @@ footer img{
     width: 50%;
     height: 100%;
     padding-right: 50px;
+    background: #919191;
 }
