@@ -1,0 +1,50 @@
+/*Fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*SELECTOR UNIVERSAL.*/
+*{
+    /*ELIMINACION PREDETERMINADA DE MARGENES Y PADDING DE LA INTERFAZ.*/
+    padding: 0;
+    margin: 0;
+    /*COLOR DE FONDO.*/
+    font-family: Poppins;
+}
+
+header{
+    background-color: #20ad72;
+}
+
+nav{
+    display: flex;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav a{
+    padding: 20px;
+    text-align: start;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+nav svg{
+    text-align: end;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
