@@ -132,8 +132,12 @@ header img{
     transform: translateY(4px);
 }
 
-#contenedor_recuperar_cuenta{
+#contenedor_links{
     text-align: center;
+}
+
+#contenedor_links p{
+    padding: 5px;
 }
 
 footer{

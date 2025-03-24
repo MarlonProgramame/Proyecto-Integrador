@@ -61,5 +61,46 @@ select{
     color: #ffffff;
     border-radius: 32px;
     font-size: 14px;
+    cursor: pointer;
+}
 
+.cont_boton button:hover{
+    padding: 10px;
+    width: 15%;
+    border: none;
+    background-color: #22b97a;
+    color: #ffffff;
+    border-radius: 32px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #20ad72;
+    color: #ffffff;
+    border-radius: 32px;
+    font-size: 14px;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #22b97a;
+    color: #ffffff;
+    border-radius: 32px;
+    font-size: 14px;
+    text-align: center;
 }
