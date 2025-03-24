@@ -11,85 +11,89 @@
     </head>
     <header>
         <span class="material-symbols-outlined">list_alt</span>
-        <h2>Formulario de Registro</h2>
+        <h2>Formulario de Preregistro</h2>
     </header>
     <body>
         <form>
             <section>
-                <!--Seleccionar el tipo de documento-->
-                <h4>Tipo de Documento</h4>
-                <select id="id_tipo_documento" name="id_tipo_documento" required>
-                    <!--Opciones de la casilla desplegable-->
-                    <option value="">Seleccione una Opción</option>
-                </select>
-                <!--Numero de Documento-->
-                <h4>Numero de Documento</h4>
-                <input type="text" id="id_usuario" name="id_usuario" title="Numero de Documento" required>
-                <!--Estado del Usuario-->
-                <h4>Estado</h4>
-                <input type="text" id="id_estado" name="id_estado" placeholder="Pendiente" title="Estado" readonly>
-                <!--Primer Nombre-->
-                <h4>Primer Nombre</h4>
-                <input type="text" id="pri_nom" name="pri_nom" title="Primer Nombre" maxlength="50" required>
-                <!--Segundo Nombre-->
-                <h4>Segundo Nombre</h4>
-                <input type="text" id="seg_nom" name="seg_nom" maxlength="50" title="Segundo Nombre">
-                <!--Primer Apellido-->
-                <h4>Primer Apellido</h4>
-                <input type="text" id="pri_ape" name="pri_ape" maxlength="50" title="Primer Apellido" required>
-                <!--Segundo Apellido-->
-                <h4>Segundo Apellido</h4>
-                <input type="text" id="seg_ape" name="seg_ape" maxlength="50" title="Segundo Apellido">
-                <!--Fecha de Nacimiento-->
-                <h4>Fecha de Nacimiento</h4>
-                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" title="Fecha Nacimiento" required>
+                <article>
+                    <!--Seleccionar el tipo de documento-->
+                    <p>Tipo de Documento</p>
+                    <select id="id_tipo_documento" name="id_tipo_documento" required>
+                        <!--Opciones de la casilla desplegable-->
+                        <option value="">Seleccione una Opción</option>
+                    </select>
+                    <!--Numero de Documento-->
+                    <p>Numero de Documento</p>
+                    <input type="text" id="id_usuario" name="id_usuario" title="Numero de Documento" required>
+                    <!--Estado del Usuario-->
+                    <p>Estado</p>
+                    <input type="text" id="id_estado" name="id_estado" placeholder="Pendiente" title="Estado" readonly>
+                    <!--Primer Nombre-->
+                    <p>Primer Nombre</p>
+                    <input type="text" id="pri_nom" name="pri_nom" title="Primer Nombre" maxlength="50" required>
+                    <!--Segundo Nombre-->
+                    <p>Segundo Nombre</p>
+                    <input type="text" id="seg_nom" name="seg_nom" maxlength="50" title="Segundo Nombre">
+                    <!--Primer Apellido-->
+                    <p>Primer Apellido</p>
+                    <input type="text" id="pri_ape" name="pri_ape" maxlength="50" title="Primer Apellido" required>
+                    <!--Segundo Apellido-->
+                    <p>Segundo Apellido</p>
+                    <input type="text" id="seg_ape" name="seg_ape" maxlength="50" title="Segundo Apellido">
+                    <!--Fecha de Nacimiento-->
+                    <p>Fecha de Nacimiento</p>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" title="Fecha Nacimiento" required>
+                    <!--Pais de Nacimiento-->
+                    <p>Pais de Nacimiento</p>
+                    <select name="id_pais_naci" id="id_pais_naci" required>
+                        <!--Opciones de la casilla desplegable-->
+                        <option value="">Seleccione una Opción</option>
+                    </select>
+                </article>
+                <article>
+                    <!--Ciudad de Nacimiento-->
+                    <p>Ciudad de Nacimiento</p>
+                    <select name="id_ciudad_naci" id="id_ciudad_naci" required>
+                        <!--Opciones de la casilla desplegable-->
+                        <option value="">Seleccione una Opción</option>
+                    </select>
+                    <!--Dirección-->
+                    <p>Dirección</p>
+                    <input type="text" id="direccion" name="direccion" maxlength="100" title="Direccion" required>
+                    <!--Genero-->
+                    <p>Genero</p>
+                    <select id="genero" name="genero" required>
+                        <!--Opciones de la casilla desplegable-->
+                        <option value="">Seleccione una Opción</option>
+                    </select>
+                    <!--Celular-->
+                    <p>Celular</p>
+                    <input type="text" id="celular" name="celular" title="Celular" maxlength="30" required>
+                    <!--Correo Electronico-->
+                    <p>Correo Electronico</p>
+                    <input type="email" id="correo_elect" name="correo_elect" maxlength="100" title="Correo Electronico" required>
+                    <!--Contraseña-->
+                    <p>Contraseña</p>
+                    <input type="password" id="contraseña" name="contraseña" maxlength="50" title="Contraseña">
+                    <!--Banco-->
+                    <p>Banco</p>
+                    <select id="id_banco" name="id_banco" required>
+                        <option value="">Seleccione una Opción</option>
+                    </select>
+                    <!--Tipo de Cuenta-->
+                    <p>Tipo de Cuenta</p>
+                    <select id="id_tipo_cuenta" name="id_tipo_cuenta" required>
+                        <option value="">Seleccione una Opción</option>
+                    </select>
+                    <!--Numero de Cuenta-->
+                    <p>Numero de Cuenta</p>
+                    <input type="number" id="num_cuenta" name="num_cuenta" min="0" maxlength="50" title="Numero de Cuenta">
+                </article>
             </section>
-            <section>
-                <!--Pais de Nacimiento-->
-                <h4>Pais de Nacimiento</h4>
-                <select name="id_pais_naci" id="id_pais_naci" required>
-                    <!--Opciones de la casilla desplegable-->
-                    <option value="">Seleccione una Opción</option>
-                </select>
-                <!--Ciudad de Nacimiento-->
-                <h4>Ciudad de Nacimiento</h4>
-                <select name="id_ciudad_naci" id="id_ciudad_naci" required>
-                    <!--Opciones de la casilla desplegable-->
-                    <option value="">Seleccione una Opción</option>
-                </select>
-                <!--Dirección-->
-                <h4>Dirección</h4>
-                <input type="text" id="direccion" name="direccion" maxlength="100" title="Direccion" required>
-                <!--Genero-->
-                <h4>Genero</h4>
-                <select id="genero" name="genero" required>
-                    <!--Opciones de la casilla desplegable-->
-                    <option value="">Seleccione una Opción</option>
-                </select>
-                <!--Celular-->
-                <h4>Celular</h4>
-                <input type="text" id="celular" name="celular" title="Celular" maxlength="30" required>
-                <!--Correo Electronico-->
-                <h4>Correo Electronico</h4>
-                <input type="email" id="correo_elect" name="correo_elect" maxlength="100" title="Correo Electronico" required>
-                <!--Contraseña-->
-                <h4>Contraseña</h4>
-                <input type="password" id="contraseña" name="contraseña" maxlength="50" title="Contraseña">
-                <!--Banco-->
-                <h4>Banco</h4>
-                <select id="id_banco" name="id_banco" required>
-                    <option value="">Seleccione una Opción</option>
-                </select>
-                <!--Tipo de Cuenta-->
-                <h4>Tipo de Cuenta</h4>
-                <select id="id_tipo_cuenta" name="id_tipo_cuenta" required>
-                    <option value="">Seleccione una Opción</option>
-                </select>
-                <!--Numero de Cuenta-->
-                <h4>Numero de Cuenta</h4>
-                <input type="number" id="num_cuenta" name="num_cuenta" min="0" maxlength="50" title="Numero de Cuenta">
-            </section>
-            <button type="submit">Enviar</button>
+            <div class="cont_boton">
+                <button type="submit">Enviar</button>
+            </div>
         </form>
     </body>
     <footer>
