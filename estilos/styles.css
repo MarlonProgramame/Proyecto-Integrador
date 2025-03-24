@@ -79,6 +79,7 @@ header img{
     width: 80%;
     font-size: 15px;
     background-color: #ffffff;
+    border: none;
 }
 
 #input_login input:hover{
@@ -87,7 +88,7 @@ header img{
     border-radius: 16px;
     width: 80%;
     font-size: 15px;
-    background-color: #e2e2e2;
+    background-color: #eeeeee;
 }
 
 #boton_login{
@@ -133,4 +134,24 @@ header img{
 
 #contenedor_recuperar_cuenta{
     text-align: center;
+}
+
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #231f20;
+    color: #ffffff;
+}
+
+.cont_titulo_footer{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cont_article_footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    align-items: center;
 }

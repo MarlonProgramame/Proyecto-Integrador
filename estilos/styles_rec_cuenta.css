@@ -1,4 +1,107 @@
+/*Fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
+
     padding: 0;
     margin: 0;
+    font-family: Poppins;
+}
+
+body{
+
+    background-color: #d9d9d9;
+}
+
+.cont_header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cont_header img{
+
+    width: 100px;
+    margin-right: 20px;
+}
+
+.cont_header h2{
+
+    margin-left: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont_central{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_central input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 500px;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+    background-color: #ffffff;
+}
+
+.cont_central input:hover{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 500px;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+    background-color: #f7f7f7;;
+}
+
+.cont_central article{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;   
+}
+
+.cont_central button{
+    border: none; 
+    padding: 10px;
+    border-radius: 32px;
+    background-color: #20ad72;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.cont_central button:hover{
+    border: none; 
+    padding: 10px;
+    border-radius: 32px;
+    background-color: #1e9e69;
+    color: #eeeeee;
+    cursor: pointer;
+}
+
+.cont_central a{
+    border: none; 
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 32px;
+    background-color: #20ad72;
+    color: #eeeeee;
+    margin-left: 20px;
+}
+
+.cont_central a:hover{
+    border: none; 
+    padding: 10px;
+    border-radius: 32px;
+    background-color: #1e9e69;
+    color: #eeeeee;
+    margin-left: 20px;
 }
