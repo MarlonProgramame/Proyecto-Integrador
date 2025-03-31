@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*SELECTOR UNIVERSAL.*/
+*{
+    /*ELIMINACION PREDETERMINADA DE MARGENES Y PADDING DE LA INTERFAZ.*/
+    padding: 0;
+    margin: 0;
+    /*COLOR DE FONDO.*/
+    font-family: Poppins;
+}
+
+*{
+    /*ELIMINACION PREDETERMINADA DE MARGENES Y PADDING DE LA INTERFAZ.*/
+    padding: 0;
+    margin: 0;
+    /*COLOR DE FONDO.*/
+    font-family: Poppins;
+}
+
+body{
+    background: linear-gradient(to right, #e6f1f1, #d0d4db, #d1e3ed);
+}
+
+header{
+    background-color: #20ad72;
+}
+
+nav{
+    display: flex;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav a{
+    padding: 20px;
+    text-align: start;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+nav svg{
+    text-align: end;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.cont_1{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.cont_1 P{
+    margin-left: 30px;
+}
+
+.cont_1 img{
+    width: 100px;
+}
+
+.cont_2{
+    display: flex;
+    justify-content: center;
+}
+
+.cont_2 table{
+    width: 80%;
+    border-collapse: collapse;
+    border: solid black;
+    margin-top: 50px;
+}
+.cont_2 th{
+    padding: 5px;
+    background-color: #20ad72;
+    color: #ffffff;
+}
+.cont_2 td{
+    padding: 5px;
+}
+
+.cont_2 tr:nth-child(odd){
+    background-color:#bce7e7;
+}
+
+.cont_2 tr:nth-child(even){
+    background-color: #D6EEEE;
+}
+
+
+.cont_2 td:nth-child(1){
+    width: 50px;
+    max-width: 50px;
+    word-wrap: break-word;
+    text-align: center;
+    border-right: 1px solid;
+}
+
+.cont_2 td:nth-child(2){
+    width: 100px;
+    max-width: 100px;
+    word-wrap: break-word;
+    text-align: center;
+    border-right: 1px solid;
+}
+
+.cont_2 td:nth-child(3){
+    width: 100px;
+    max-width: 100px;
+    text-align: center;
+    border-right: 1px solid;
+}
+
+.cont_2 td:nth-child(4){
+    width: 200px;
+    max-width: 200px;
+    word-wrap: break-word;
+    text-align: center;
+    border-right: 1px solid;
+}
+.cont_2 td:nth-child(5){
+    width: 300px;
+    max-width: 300px; /* Evita que la columna crezca más allá de 400px */
+    word-wrap: break-word; /* Si una palabra es muy larga, la corta y la pasa a la siguiente línea */
+}
