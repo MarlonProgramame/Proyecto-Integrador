@@ -75,67 +75,73 @@ nav svg{
     width: 100px;
 }
 
-.cont_2{
+form{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 250px;
 }
 
-.cont_2 table{
-    width: 80%;
-    border-collapse: collapse;
-    border: solid black;
-    margin-top: 50px;
+.cont_form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }
-.cont_2 th{
+
+.cont_form p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.cont_form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 18px;
     padding: 5px;
+    background-color: rgb(255, 255, 255);
+    background-color: #f8f5f3;
+    font-size: 18px;
+}
+.cont_form textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    padding: 2px;
+    width: 100%;
+    max-width: 100%;
+    height: 120px;
+    max-height: 120px;
+    background-color: #f8f5f3;
+}
+
+.cont_form button{
+    border: none; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 32px;
     background-color: #20ad72;
     color: #ffffff;
-}
-.cont_2 td{
-    padding: 5px;
-}
-
-.cont_2 tr:nth-child(odd){
-    background-color:#bce7e7;
+    cursor: pointer;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.cont_2 tr:nth-child(even){
-    background-color: #D6EEEE;
-}
-
-
-.cont_2 td:nth-child(1){
-    width: 50px;
-    max-width: 50px;
-    word-wrap: break-word;
-    text-align: center;
-    border-right: 1px solid;
-}
-
-.cont_2 td:nth-child(2){
-    width: 100px;
-    max-width: 100px;
-    word-wrap: break-word;
-    text-align: center;
-    border-right: 1px solid;
-}
-
-.cont_2 td:nth-child(3){
-    width: 100px;
-    max-width: 100px;
-    text-align: center;
-    border-right: 1px solid;
-}
-
-.cont_2 td:nth-child(4){
-    width: 200px;
-    max-width: 200px;
-    word-wrap: break-word;
-    text-align: center;
-    border-right: 1px solid;
-}
-.cont_2 td:nth-child(5){
-    width: 300px;
-    max-width: 300px; /* Evita que la columna crezca más allá de 400px */
-    word-wrap: break-word; /* Si una palabra es muy larga, la corta y la pasa a la siguiente línea */
+.cont_form button:hover{
+    border: none; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 32px;
+    background-color: #22b97a;
+    color: #eeeeee;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

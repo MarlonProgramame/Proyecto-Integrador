@@ -69,7 +69,12 @@ nav svg{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 50px;
+    padding: 100px;
+}
+
+.cont_2 img{
+    width: 150px;
+    
 }
 
 .cont_2 button{

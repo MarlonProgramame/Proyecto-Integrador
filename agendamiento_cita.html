@@ -31,52 +31,22 @@
         <main>
             <section class="cont_1">
                 <img src="imagenes/imag_agendamiento.png" alt="perfil_agendamiento">
-                <P>Citas Casos</P>
+                <P>Agendar Cita</P>
             </section>
-            <section class="cont_2">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Cita ID</th>
-                            <th>Fecha Cita</th>
-                            <th>Hora Cita</th>
-                            <th>Juez</th>
-                            <th>Link de la Cita Vitual</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tabla_citas">
-                        <tr>
-                            <td>1</td>
-                            <td>12/05/2026</td>
-                            <td>12:00 PM</td>
-                            <td>Mateo Amarillo</td>
-                            <td>Link</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>12/05/2026</td>
-                            <td>12:00 PM</td>
-                            <td>Andres Mateo Amarillo Lozano</td>
-                            <td>Link</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>12/05/2026</td>
-                            <td>12:00 PM</td>
-                            <td>Aristizabal Monsalve Marlon Steven</td>
-                            <td>Link</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>12/05/2026</td>
-                            <td>12:00 PM</td>
-                            <td>Villa Florez Jennifer Alejandra</td>
-                            <td>Link</td>
-                        </tr>
-                        <!--Consulta de Citas Automaticamente-->
-                    </tbody>
-                </table>
-            </section>
+            <form action="">
+                <section class="cont_form">
+                    <p>Fecha</p>
+                    <input type="date" id="" name="" required>
+                    <p>Hora</p>
+                    <input type="time" min="08:00" max="16:00" id="" name="" required>
+                    <p>Juez</p>
+                    <input type="text" id="id_juez" name="id_juez" placeholder="No tiene jueces asignados" readonly>
+                    <textarea name="" id="" readonly>
+                        
+                    </textarea>
+                    <button type="submit">Agendar Cita</button>
+                </section>
+            </form>
         <main>
     </body>
 </html>
